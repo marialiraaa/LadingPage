@@ -1,0 +1,534 @@
+body{
+    /* background-attachment: fixed linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 1) 100%),
+    url(./assets/img1.jpeg) center/cover no-repeat; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 1) 100%, rgba(244, 240, 233) 100%),
+    url('./assets/img1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.topo a{
+    text-decoration: none;
+    color: white;
+
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background-color:#0E1422;
+    box-sizing: border-box;
+    opacity: 100%;
+    margin-bottom: 128px;
+}
+
+.botaotopo{
+    width: 102px;
+    height: 36px;
+    background-color: #E8973A;
+    border-radius: 8px;
+    margin: 32px;
+    text-align: center;
+    display: inline-flex;     /* permite alinhar o texto interno com flexbox */
+    align-items: center;      /* centraliza na vertical */
+    justify-content: center;
+    color: #0E1422;
+}
+
+.explorar{
+    display: flex;
+    text-align: center;
+    color: #0E1422;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    gap: 40px;
+    margin-left: 304px;
+    margin-right: 304px;
+    font-size: 16px;
+    
+}
+
+.logo{
+    width: 36px;
+    height: 36px;
+    background-color: #E8973A;
+    border-radius: 50%;
+    gap: 10px;
+    margin-left: 32px;
+}
+.hor{
+    font-size: 22px;
+    margin-right: 42px;
+    color:white
+}
+
+
+h3{
+    width: 600px;
+    height: 14px;
+    font-size: 14px;
+    color: white;
+  
+
+}
+
+h2{
+    width: 500px;
+    height: 92px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+h1{
+    width: 720px;
+    height: 132px;
+    color: white;
+    font-size: 63px;
+    
+}
+
+#container{
+    width: 995px;
+    height: 55px;
+    padding:16px;
+    margin: 32px;
+    text-decoration: none;
+}
+
+.botao1{
+    width: 150px;
+    height: 55px;
+    padding: 14px 35px 14px 35px;
+    background-color: #E8973A;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.botao2{
+    width: 150px;
+    height: 55px;
+    padding: 14px 35px 14px 35px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+/* -------------- destino, viajantes e satisfacao ---------------- */
+#num{
+    display: flex;     /* permite alinhar o texto interno com flexbox */ 
+    flex-direction: row;     
+    gap: 48px;
+    margin: 48px;
+    height: 200px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.numero{
+    display: flex;
+    text-align: center;
+    color: #E8973A;
+    font-size: 32px
+}
+
+.textlabel{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.itens{
+    display: flex;
+    flex-direction:column;
+   align-items: flex-start;
+}
+/* ----------------------  FIM --------------------------------- */
+
+
+
+/* paises e descricao e dicas sobre quando ir e tempo*/
+
+.containerLugares{
+    background-color: rgb(244, 240, 233);
+    max-width: 100%;
+    background: linear-gradient(to bottom,
+  rgba(244, 240, 233, 0) 0%,
+  rgba(244, 240, 233, 0.8) 40px,
+  rgb(244, 240, 233) 140px,
+  rgb(244, 240, 233) 100%
+);
+    padding: 160px 24px 60px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    /* margin: 0 auto; */
+
+
+}
+
+.PontoTuris{
+    width: 1017px;
+    height: mixed;
+    font-size: 13px;
+    color: #E8973A;
+    /* margin-bottom: 15px; */
+   
+    margin: 32px;
+}
+
+.DestinoMe{
+    width: 560px;
+    height: mixed;
+    margin: 32px;
+    font-size:37px;
+    margin-bottom: 32px;
+}
+
+.Paises{
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    height: mixed;
+    margin: 32px;
+    gap: 32px;
+}
+
+.MachuPiche{
+    background-color: white;
+    width: 310px;
+    height: mixed;
+    border-radius: 16px;
+}
+
+.imgmachu{
+    width: 310px;
+    height: 220px;
+}
+
+.text1{
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    height: 34px;
+    margin:26px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    gap: 40px;
+
+}
+.a1{
+    font-size: 23px;
+    height: 34px;
+    width: mixed;
+    gap:40px;
+    margin: 0;
+    
+}
+
+
+.a2{
+
+    font-size: 13px;
+    height: 19px;
+    width: auto;
+    /* margin-bottom: 32px;
+    margin-top: 26px; */
+    color: #E8973A;
+}
+
+.a3{
+    color: #6B7280;
+    font-size: 13px;
+    height: mixed;
+    width: 267px;
+    margin: 26px;
+    margin-bottom: 15px;
+}
+
+.a4{
+    color: #6B7280;
+    font-size: 15px;
+    height: mixed;
+    width: 267px;
+    margin: 26px;
+    margin-bottom: 15px;
+}
+
+.text2{
+    display: flex;
+    justify-content: space-between;
+    margin: 26px;
+    padding-top: 16px;
+    gap: 25px
+
+}
+
+.a5{
+    color: #6B7280;
+    font-size: 15px;
+    height: 19px;
+    width: 267px;
+}
+
+.a6{
+    color: #6B7280;
+    font-size: 13px;
+    height: 19px;
+    width: 269px;
+
+}
+/*-------------------------- FIM ----------------------------------- */
+
+
+
+/*-------------------------- SOBRE -------------------------------- */
+.Container_sobre{
+    width: 1081;
+    height: 100%;
+    background-color: rgb(244, 240, 233) ;
+}
+
+.SOBRE{
+    position: auto;
+    margin: 0 132px 0 132px;
+    width: 760;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SOBRE_titulo{
+    width: 760;
+    height: 19px;
+    font-size: 13px;
+    color: #E8973A;
+    text-align: center;
+}
+
+.SOBRE_subtitulo{
+    font-family: 'Fraunces', serif;
+    width: 760px;
+    height: 55px;
+    margin-bottom: 24px;
+    color: #0E1422;
+    font-size: 37px;
+    text-align: center;
+}
+
+.SOBRE_texto{
+    width: 760px;
+    height: 55px;
+    margin-bottom: 48px;
+    color: #0E1422;
+    font-size: 17px;
+    text-align: center;
+}
+
+#num1{
+    display: flex;     /* permite alinhar o texto interno com flexbox */ 
+    flex-direction: row;   
+    width: mixed;
+    height: 252px;
+    gap:32px;
+    text-align: center;
+    margin: 0 132px 0 132px;
+}
+
+.numero1{
+    text-align: center;
+    color: #E8973A;
+    width: mixed;
+    height: 34px;
+    font-size: 35px;
+}
+
+.textlabel1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+
+.itens1{
+    width: mixed;
+    height: 110px;
+    border-radius: 16px;
+    display: flex;
+    padding: 26px 32px 26px 32px;
+    gap: 32px;
+    margin-bottom: 32px;
+    flex-direction:column;
+    align-items: flex-start;
+}
+/*-------------------------- FIM -------------------------------- */
+.containerFinal{
+    width: 1087;
+    height: 418;
+    padding: 64px 32px 40px 32px;
+    background-color: black;   
+
+}
+
+.tudao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    align-items: flex-start;
+    padding-top: 0;
+    /* background-color: #E8973A; */
+    width: 1023;
+    height: 237;
+    padding-bottom: 48px;
+}
+
+.descr{
+    border: 1px solid black;
+    width: 352;
+    height: 198;
+    margin-bottom: 10px;
+    
+}
+
+.textfinal{
+    margin-top: 10px;
+    width: 280px;
+    height: 71px;
+    color: white;
+    
+}
+
+
+.logo{
+    width: 32px;
+    height: 32px;
+    background-color: #E8973A;
+    border-radius: 50%;
+    /* gap: 10px;
+    margin-left: 32px; */
+}
+
+.hori{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    
+}
+
+
+
+.lo_desc{
+    width: auto;
+    height: 34px;
+    gap: 1px; 
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#in{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12x;
+    line-height: 2; 
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+}
+
+.ul{
+    list-style: none;
+}
+
+.informacoes{
+    list-style: none;
+    padding: 0;
+    width: 176;
+    height: 198;   
+}
+
+.informacoes1{
+    list-style: none;
+    padding: 0;
+    width: 176px;
+    height: mixed;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inf{
+    padding-bottom: 9px;
+    font-size: 16px;
+    color: white;
+}
+
+.inf1{
+    padding-bottom: 3px;
+    font-size: 16px;
+    color: white;
+}
+
+.tex_dow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: mixed;
+    height: mixed;
+    gap: 16px;
+    margin-top: 15px;
+}
+.reserv_dow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: mixed;
+    height: mixed;
+    gap:32px;
+}
+
+.reserv{
+    width: mixed;
+    height: 19px;
+    color: white;
+    font-size: 13px;
+}
+
+.privado{
+    width: mixed;
+    height: 19px;
+    color: white;
+    font-size: 13px;
+}
+
+.uso{
+    width: mixed;
+    height: 19px;
+    color: white;
+    font-size: 13px;
+}
